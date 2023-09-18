@@ -1,0 +1,7 @@
+/.terraform
+/.history
+/.bin
+/terraform.tfplan
+/terraform.tfstate.*
+/terraform.tfvars
+/documentation/site
