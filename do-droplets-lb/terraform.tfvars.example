@@ -1,0 +1,5 @@
+do_token = "DO_TOKEN"
+do_ssh_key_name = "USERNAME"
+pvt_key= "../ssh_keys/USERNAME"
+public_key= "../ssh_keys/USERNAME.pub"
+domain_name= "DOMAIN_NAME"

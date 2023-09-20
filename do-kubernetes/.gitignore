@@ -3,5 +3,6 @@
 /.bin
 /terraform.tfplan
 /terraform.tfstate.*
+/.terraform.lock.hcl
 /terraform.tfvars
 /documentation/site
