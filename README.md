@@ -26,6 +26,8 @@ chmod +x *.sh
 1. do-droplets-lb
 2. do-kubernetes
 
+**You can create additional projects starting from one of the two existing ones (do-droplets-lb or do-kubernetes) and customize them as you wish.**
+
 Global Arguments:
 - `username=*` : The username of the user to be created on the droplet.
 - `do_token=*` : The Digital Ocean Token to be used to create the droplet.
@@ -40,6 +42,8 @@ Select the Project
 ## Start the script
 
 **When run without any arguments, it will ask for user input.**
+
+**You can use an SSH key of your choice by renaming it with your username or create an SSH key automatically. Please keep in mind that once it's created or after placing the SSH key in the ./ssh_keys folder, you need to add it in the security settings within Digital Ocean.**
 
 Arguments:
 - `username=*` : The username of the user to be created on the droplet.
